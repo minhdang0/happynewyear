@@ -25,7 +25,7 @@ const updateTime = () => {
     if(Object.keys(timeLeft).length > 0) {
         countDownWatch.innerHTML = ` Còn ${timeLeft.days} ngày ${timeLeft.hours} giờ ${timeLeft.minutes} phút ${timeLeft.seconds} giây là đến Tết nguyên đán 2025!
         `;
-        content.innerHTML = `Chị Lê Việt Hằng sẽ lì xì tất cả chúng ta!`;
+        content.innerHTML = `Đợi tết anh gửi lại`;
     } else {
         countDownWatch.innerHTML = `Happy new year 2026`;
         clearInterval(timeInterval);
